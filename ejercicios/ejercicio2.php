@@ -155,20 +155,29 @@
 			<article id="ejer2_1">
 				<h3>Ejercicio 2.1</h3>
 				<?php 
-						//TO-DO
-						?>
+            require_once '../recursos/bombilla.php';
+            $bombilla = new Bombilla();
+            $bombilla->encender();
+            $bombilla->apagar();
+				?>
 			</article>
 			<article id="ejer2_2">
 				<h3>Ejercicio 2.2</h3>
 				<?php 
-						//TO-DO
-						?>
+          require_once '../recursos/trigonometria.php';
+          $cateto1 = 10;
+          $cateto2 = 15;
+          $hipotenusa = calcularHipotenusa($cateto1, $cateto2);
+          echo "La hipotenusa de un triángulo con catetos de $cateto1 y $cateto2 es: $hipotenusa";
+				?>
 			</article>
 			<article id="ejer2_3">
 				<h3>Ejercicio 2.3</h3>
 				<?php 
-						//TO-DO
-						?>
+            require_once '../recursos/cubo.php';
+            $cubo = new Cubo(3);
+            $cubo->revolver();
+				?>
 			</article>
 			<article id="ejer2_4">
 				<h3>Ejercicio 2.4</h3>
