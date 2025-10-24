@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="TO-DO" />
-    <title>TO-DO</title>
+    <title>Repositorio Alex</title>
     <script src="js/color-modes.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <meta name="theme-color" content="#712cf9" />
@@ -149,12 +149,12 @@
     <!-- Begin page content -->
     <main class="flex-shrink-0">
       <div class="container">
-        <h1 class="mt-5">TO-DO</h1>
+        <h1 class="mt-5">REPOSITORIO ALEX PARDO</h1>
         <p class="lead">
-          Ongi etorri TO-DOra!
+          Aqui estan las tareas de alex pardo
         </p>
         <p>
-          TO-DO.
+          JE, JE :).
         </p>
       </div>
     </main>
