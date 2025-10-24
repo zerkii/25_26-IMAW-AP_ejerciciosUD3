@@ -111,7 +111,7 @@
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="..">Urtzi Diaz Arberas</a>
+          <a class="navbar-brand" href="..">Alex Pardo Vicente</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -154,20 +154,32 @@
 					<h3>Ejercicio 1.1</h3>
 					<p>
 					<?php 
-						//TO-DO
-						?>
+						$nombre = "Alex";
+						echo "Hola " . $nombre . ", Bienvenido";
+					?>
 					</p>
 				</article>
 				<article id="ejer1_2">
 					<h3>Ejercicio 1.2</h3>
 						<?php 
-						//TO-DO
+							$a = 8;
+							$b = 3;
+							echo "a = " . $a . "<br>";
+							echo "b = " . $b . "<br>";
+							echo "a + b = " . ($a + $b) . "<br>";
+							echo "a - b = " . ($a - $b) . "<br>";
+							echo "a * b = " . ($a * $b) . "<br>";
+							echo "a / b = " . ($a / $b) . "<br>";
+							echo "El resto de dividir a entre b es " . ($a % $b);
 						?>
 				</article>
 				<article id="ejer1_3">
 					<h3>Ejercicio 1.3</h3>	
 						<?php 
-						//TO-DO
+							$meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", 
+									"Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+							$mes = 4;
+							echo "El mes " . $mes . " es " . $meses[$mes - 1] . ".";
 						?>
 				</article>
 				<article id="ejer1_4">
