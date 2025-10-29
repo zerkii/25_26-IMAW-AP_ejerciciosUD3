@@ -129,7 +129,11 @@
                 <a class="nav-link" href="ejercicios/ejercicio1.php">ACT1 - Variables</a>
               </li>
               <li class="nav-item">
-				<a class="nav-link" href="ejercicios/ejercicio2.php">ACT2 - Funciones y Clases</a></li>
+      <a class="nav-link" href="ejercicios/ejercicio2.php">ACT2 - Funciones y Clases</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ejercicios/ejercicio3.php">ACT3 - Condicionales</a>
+      </li>
             </ul>
             <form class="d-flex" role="search">
               <input
