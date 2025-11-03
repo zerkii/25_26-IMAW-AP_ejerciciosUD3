@@ -111,7 +111,7 @@
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="..">Alex Pardo</a>
+          <a class="navbar-brand" href="..">Alex Pardo Vicente</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -155,29 +155,35 @@
 			<article id="ejer2_1">
 				<h3>Ejercicio 2.1</h3>
 				<?php 
-            require_once '../recursos/bombilla.php';
-            $bombilla = new Bombilla();
+      
+						require_once __DIR__.'/../recursos/bombilla.php';
+            $bombilla = new bombilla();
             $bombilla->encender();
             $bombilla->apagar();
-				?>
+						?>
 			</article>
 			<article id="ejer2_2">
 				<h3>Ejercicio 2.2</h3>
 				<?php 
-          require_once '../recursos/trigonometria.php';
-          $cateto1 = 10;
-          $cateto2 = 15;
-          $hipotenusa = calcularHipotenusa($cateto1, $cateto2);
-          echo "La hipotenusa de un triángulo con catetos de $cateto1 y $cateto2 es: $hipotenusa";
-				?>
+            require_once __DIR__.'/../recursos/trigonometria.php';
+						$cateto1 = 10;
+            $cateto2 = 15;
+            $hipotenusa = calcularhipotenusa($cateto1, $cateto2);
+            echo "<p>el triangulo con los catetos" .$cateto1. "y" .$cateto2. "tiene la hipotenusa" .$hipotenusa."</p>";
+						?>
 			</article>
 			<article id="ejer2_3">
 				<h3>Ejercicio 2.3</h3>
 				<?php 
-            require_once '../recursos/cubo.php';
-            $cubo = new Cubo(3);
-            $cubo->revolver();
-				?>
+						 // corregir la ruta de inclusión (estábamos en el directorio ejercicios)
+    require_once __DIR__ . '/../recursos/cubo.php';
+
+    $c = new Cubo(3.5);
+    echo "Tamaño: 3.5\n";
+    echo "Resuelto: " . ($c->getRevuelto() ? 'sí' : 'no') . "\n";
+    $c->revolver(); // mostrará: Ahora está todo revuelto
+    echo "\nResuelto después de revolver: " . ($c->getRevuelto() ? 'sí' : 'no') . "\n";
+						?>
 			</article>
 			<article id="ejer2_4">
 				<h3>Ejercicio 2.4</h3>
